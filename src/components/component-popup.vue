@@ -32,7 +32,7 @@
               chips
               multiple
               v-model="images"
-              label="File input w/ chips"
+              label="Uploard product"
             >
             </v-file-input>
 
