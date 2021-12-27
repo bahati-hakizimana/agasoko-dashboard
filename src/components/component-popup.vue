@@ -15,7 +15,7 @@
             <v-col cols="12" lg="12">
               <v-text-field
                 v-model="title"
-                prepend-icon="folder"
+                prepend-icon="folder" 
                 label="Product name"
                 required
               ></v-text-field>

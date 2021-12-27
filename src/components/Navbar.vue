@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <v-app-bar color="red" dark app>
+    <v-app-bar color="darkslategray" dark app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"> </v-app-bar-nav-icon>
       <v-toolbar-title class="text-uppercase">
         <span class="font-weight-light">Agasoko</span>
@@ -45,13 +45,13 @@
         <v-icon right>exit_to_app</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" dark app class="red darken-4">
+    <v-navigation-drawer v-model="drawer" dark app class="darkslategray">
       <v-layout column align-center>
         <v-flex class="mt-5">
           <v-avatar size="100">
             <v-img src="/img1.jpg"></v-img>
           </v-avatar>
-          <p class="white--text subheading mt-1 text-center">Username</p>
+          <p class="white--text subheading mt-1 text-center">Seller</p>
         </v-flex>
         <v-flex class="mt-4 mb-4 popup-component-container">
           <component-popup />
@@ -86,7 +86,7 @@ export default {
     links: [
       { icon: "dashboard", text: "Dashboard", route: "/" },
       { icon: "folder", text: "Project", route: "/projects" },
-      { icon: "person", text: "Team", route: "/team" },
+      { icon: "person", text: "Product", route: "/product" },
     ],
 
     //     links: [
